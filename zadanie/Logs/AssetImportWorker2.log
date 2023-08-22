@@ -15,7 +15,7 @@ D:/UnityWyspaPiracka/zadanie
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63210
+63811
 Successfully changed project path to: D:/UnityWyspaPiracka/zadanie
 D:/UnityWyspaPiracka/zadanie
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/UnityWyspaPiracka/zadanie
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 69.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path F:/unityeditor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'F:/unityeditor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'F:/unityeditor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/unityeditor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/unityeditor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002026 seconds.
+Registered in 0.001591 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.479 seconds
 Domain Reload Profiling:
-	ReloadAssembly (548ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (480ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (399ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (82ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (235ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (232ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004597 seconds.
+Registered in 0.003789 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityWyspaPiracka\zadanie\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityWyspaPiracka\zadanie\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.780 seconds
+- Completed reload, in  0.822 seconds
 Domain Reload Profiling:
-	ReloadAssembly (781ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (637ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (355ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3567 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (1.6 MB). Loaded Objects now: 4040.
 Memory consumption went from 144.9 MB to 143.4 MB.
-Total: 2.527800 ms (FindLiveObjects: 0.182000 ms CreateObjectMapping: 0.108300 ms MarkObjects: 1.999100 ms  DeleteObjects: 0.237700 ms)
+Total: 2.523000 ms (FindLiveObjects: 0.235600 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.956800 ms  DeleteObjects: 0.252200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,3 +157,118 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16798.589005 seconds.
+  path: Assets/Content/Textures/TropicalEnvironmentLite_Grass.png
+  artifactKey: Guid(89bc11f1dd883784bb12d8a71f59a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/TropicalEnvironmentLite_Grass.png using Guid(89bc11f1dd883784bb12d8a71f59a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5611f11954a8e25b5c9ad9b61b13f212') in 0.084434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Content/Textures/TropicalEnvironmentLite_Sand.png
+  artifactKey: Guid(fc7c7d8754cf5de48a02a482c9adfa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/TropicalEnvironmentLite_Sand.png using Guid(fc7c7d8754cf5de48a02a482c9adfa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3dd11bc8f37c9e36ff848931af59e2') in 0.014708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Content/Textures/TropicalEnvironmentLite_Texture_01.png
+  artifactKey: Guid(f7a888e855cafde4e95acf76bec4fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/TropicalEnvironmentLite_Texture_01.png using Guid(f7a888e855cafde4e95acf76bec4fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf2fd9f5fb3f9fdc6508803a6a20a2f') in 0.013021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Content/Terrain/New Terrain.asset
+  artifactKey: Guid(9a0281a8904d6d1429d2b815b58f78a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Terrain/New Terrain.asset using Guid(9a0281a8904d6d1429d2b815b58f78a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Bush_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Mushroom_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Mushroom_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Stump_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Rock_04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Rock_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Rock_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Rock_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Flowers_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Flowers_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Grass_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '9cd8069b0b4db7189cc9de6013a91cf7') in 0.034968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Content/Textures/TropicalEnvironmentLite_Grass_Normal.png
+  artifactKey: Guid(172f31a5fb9f24a4085dfff56feb24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textures/TropicalEnvironmentLite_Grass_Normal.png using Guid(172f31a5fb9f24a4085dfff56feb24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed549db73b36663d738cef6bb2fa13b') in 0.025879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.148108 seconds.
+  path: Assets/Content/PostProcessing
+  artifactKey: Guid(0bcd04f45442cb246bbd9280c0ac6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/PostProcessing using Guid(0bcd04f45442cb246bbd9280c0ac6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957fc0a42ca364ebbf1218ae80ea7451') in 0.007690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049418 seconds.
+  path: Assets/Content/PostProcessing/PostProcessing Profile_SimpleNaturePack.asset
+  artifactKey: Guid(142a90124f4db154d8b3f2f5d3b9a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/PostProcessing/PostProcessing Profile_SimpleNaturePack.asset using Guid(142a90124f4db154d8b3f2f5d3b9a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5989d5d58c4c50e5b68a64ea0add17e0') in 0.007941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.357708 seconds.
+  path: Assets/Content/Materials
+  artifactKey: Guid(0092421a8d2aeac4fbb7327fbf47e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Materials using Guid(0092421a8d2aeac4fbb7327fbf47e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e8b397a08e8ec47b85d7ba833dd875') in 0.007547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.171909 seconds.
+  path: Assets/assets
+  artifactKey: Guid(0d05c6afde287fa4d81022ff7c984d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets using Guid(0d05c6afde287fa4d81022ff7c984d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0822f73cd7ab7ea2ba3c96b9b14cf8') in 0.007902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.599119 seconds.
+  path: Assets/assets/PluginMaster
+  artifactKey: Guid(5297791fd2a36e84f99d8f7ba02a5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster using Guid(5297791fd2a36e84f99d8f7ba02a5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad928240a31aeb136aec0b37629b59c') in 0.008023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.501308 seconds.
+  path: Assets/assets/PluginMaster/DesignTools
+  artifactKey: Guid(dddd27c90db281c48b7d23f7295a1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster/DesignTools using Guid(dddd27c90db281c48b7d23f7295a1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff9155ad550c90f57293044fd48dde6') in 0.007722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.513233 seconds.
+  path: Assets/assets/PluginMaster/DesignTools/Editor
+  artifactKey: Guid(7324be90284ce5e4dbeb20a913e99300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster/DesignTools/Editor using Guid(7324be90284ce5e4dbeb20a913e99300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fde394b97becb39d30397373d128fc') in 0.008130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.455659 seconds.
+  path: Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder
+  artifactKey: Guid(b0788f672f975334a9690697bc1157f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder using Guid(b0788f672f975334a9690697bc1157f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff66b0c869daf5b1bc4822b3f5fb5c8') in 0.008548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.352815 seconds.
+  path: Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources
+  artifactKey: Guid(f752cd4382e7be443b74ddf1a8363233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources using Guid(f752cd4382e7be443b74ddf1a8363233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f74814a82938f1169a6c057882e122') in 0.007549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261997 seconds.
+  path: Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data
+  artifactKey: Guid(d02c1a222e6457645870f4fc260c7f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data using Guid(d02c1a222e6457645870f4fc260c7f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84211cbbf72d24822fa29df3e949fa8b') in 0.007586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.319363 seconds.
+  path: Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data/Palettes
+  artifactKey: Guid(7b9891b97c51e27419e425f57ecd9876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data/Palettes using Guid(7b9891b97c51e27419e425f57ecd9876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7658f8e07c622ce65a715d13c2e8e558') in 0.009281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.310004 seconds.
+  path: Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data/Palettes/PWB_88DBA352542E1A86.txt
+  artifactKey: Guid(a3ebc1dddd80829459912aec10ccc8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Data/Palettes/PWB_88DBA352542E1A86.txt using Guid(a3ebc1dddd80829459912aec10ccc8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3433417eddd9d6e188b14b8d570e4f04') in 0.012072 seconds 
